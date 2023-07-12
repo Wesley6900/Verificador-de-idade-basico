@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilizacao.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>verificador de idade</h1>
+    <section>
+        <form class="formulario">
+            <label for="numbertxt">
+                Ano de Nascimento:
+            </label>
+
+            <input type="number" name="numbertxt" id="numbertxt2">
+            
+            <p>Sexo</p>
+
+            <input type="radio" name="radio1" id="radio1" onclick="receber_param(1)">
+
+            <label for="radio1">
+                Masculino
+            </label>
+
+            <input type="radio" name="radio1" id="radio2" onclick="receber_param(2)">
+
+            <label for="radio2">
+                Feminino
+            </label>
+            
+            <button type="button" onclick="verificacao()">Verificar</button>
+
+            <span id="mudar_palavra">Preencha os dados acima para ver o resultado!</span><br>
+
+            <span id="fotos"></span>
+        </form>
+    </section>
+</body>
+</html>
