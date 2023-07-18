@@ -12,13 +12,14 @@ function verificacao(){
     var campo = window.document.getElementById('numbertxt2');
     var mudar_palavra = window.document.getElementById('mudar_palavra');
     var ano = 0
+    campo -= 1;
     var contador_ano = Number.parseInt(campo.value);
 
     if (campo === void(0)) {
         alert('Digite o ano que voçê nasceu!!!')
     }
 
-    contador_ano -= 1;
+    
     
     do{
         contador_ano ++
