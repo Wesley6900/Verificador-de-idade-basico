@@ -17,13 +17,15 @@ function verificacao(){
     if (campo === void(0)) {
         alert('Digite o ano que voçê nasceu!!!')
     }
+
+    contador_ano -= 1;
     
     do{
         contador_ano ++
 
         ano ++ 
 
-    }while(contador_ano <= 2022);
+    }while(contador_ano <= 2023);
 
     if (ano >= 0 && ano <= 5 && number_sexo == 1) {
         mudar_palavra.innerHTML = 'Detectamos um Bebê masculino com ' + ano + 'anos';
