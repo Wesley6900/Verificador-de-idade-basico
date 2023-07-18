@@ -19,7 +19,7 @@ function verificacao(){
     }
     
     do{
-        contador_ano += 1
+        contador_ano ++
 
         ano ++ 
 
