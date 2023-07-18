@@ -21,7 +21,7 @@ function verificacao(){
     do{
         contador_ano += 1
 
-        ano += 1
+        ano ++ 
 
     }while(contador_ano <= 2023);
 
