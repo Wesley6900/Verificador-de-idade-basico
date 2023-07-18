@@ -23,7 +23,7 @@ function verificacao(){
 
         ano ++ 
 
-    }while(contador_ano <= 2023);
+    }while(contador_ano <= 2022);
 
     if (ano >= 0 && ano <= 5 && number_sexo == 1) {
         mudar_palavra.innerHTML = 'Detectamos um Bebê masculino com ' + ano + 'anos';
